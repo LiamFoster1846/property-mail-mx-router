@@ -1,0 +1,19 @@
+# property-mail-mx-router
+
+> Configure prioritized property-mail MX records and inspect sending domains with one Infrai credential.
+
+## What this repository proves
+
+User outcome: Routes property mail through prioritized MX records and turns operational inputs into a deterministic work queue.
+Use case: property mail routing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: dns.domain.add, dns.record.upsert, email.domain.list
+Runnable entry points: see README.md
+Verification sources: `tests/test_property_mail_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

@@ -1,0 +1,27 @@
+{
+  "domain": "mail.riverhouse.example",
+  "mx_targets": [
+    {"host": "mx1.mail-provider.example", "priority": 10},
+    {"host": "mx2.mail-provider.example", "priority": 20}
+  ],
+  "maintenance_requests": [
+    {"request_id": "repair-104", "unit": "8A", "summary": "Heating outage", "urgent": true},
+    {"request_id": "repair-105", "unit": "3B", "summary": "Loose cabinet hinge"}
+  ],
+  "tenant_documents": [
+    {
+      "document_id": "lease-2027-3B",
+      "unit": "3B",
+      "title": "Lease renewal packet",
+      "recipient": "tenant-3b@example.com"
+    }
+  ],
+  "inspection_reminders": [
+    {
+      "inspection_id": "inspection-8A-2027",
+      "unit": "8A",
+      "inspection_date": "2027-01-15",
+      "recipient": "tenant-8a@example.com"
+    }
+  ]
+}
